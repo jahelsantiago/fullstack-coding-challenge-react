@@ -1,9 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from './CandidateBar.module.css'
 import {CandidateItem} from "./CandidateItem";
+import PropTypes from 'prop-types';
 
-export default function CandidateBar({candidateList, currCandidateIndex, changeCurrCandidate}){
+CandidateBar.propTypes = {
+    candidateList: PropTypes.array.isRequired,
+    currCandidateIndex: PropTypes.number.isRequired,
+    changeCurrCandidate: PropTypes.func.isRequired,
+}
 
+export default function CandidateBar({candidateList, currCandidateIndex, changeCurrCandidate, open}){
+  if(!open) return null;
   return (
     <div className={styles.container}>
       <div className={styles.title}>
