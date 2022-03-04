@@ -1,0 +1,20 @@
+.container{
+    width: 400px;
+    height: 100vh;
+    background-color: var(--sidebar-background);
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    border-right: 2px solid var(--line-color);
+}
+
+.title{
+    font-size: 2.25rem;
+    line-height: 1.22222;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    margin: 10px 0px;
+    color: rgb(243, 246, 249);
+    text-align: center;
+}

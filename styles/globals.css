@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root{
+  --sidebar-background: rgba(10,25,41,255);
+  --item-background: rgba(19,47,76,255);
+  --item-background-hover: rgba(14,34,55,255);
+  --selected-item-background: rgba(19,47,76,255);
+  Background: rgba(0,30,60,255);
+  --line-color:rgba(22,62,103,255);
+  --primary-color: #ffffff;
+  --secondary-color: #3399ff;
+}

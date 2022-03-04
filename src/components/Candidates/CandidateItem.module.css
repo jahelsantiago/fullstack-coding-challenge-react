@@ -1,0 +1,28 @@
+
+.selected{
+    color: var(--secondary-color)
+}
+
+.notSelected{
+    color: var(--primary-color);
+
+}
+
+.container{
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--item-background);
+}
+
+.container:hover{
+    background-color: var(  --item-background-hover);
+}
+
+.name{
+    background-color: inherit;
+}
